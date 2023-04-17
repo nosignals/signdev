@@ -1,7 +1,16 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Autodesk AutoCAD
+  percentage: 1
+  color: success
+  
+- name: Electronics
+  percentage: 1
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: Sony Vegas
+  percentage: 1
   color: success
+  
+- name: PCB Design
+  percentage: 1
+  color: info
+  
