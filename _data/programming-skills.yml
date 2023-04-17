@@ -1,23 +1,23 @@
 - name: Arduino
-  percentage: 70
+  percentage: 1
   color: info
   
 - name: HTML/CSS/JS
-  percentage: 0
+  percentage: 1
   color: danger
 
 - name: C/C++
-  percentage: 0
+  percentage: 1
   color: primary
 
 - name: Bash
-  percentage: 0
+  percentage: 1
   color: danger
 
 - name: Dart
-  percentage: 0
+  percentage: 1
   color: primary
 
 - name: PHP
-  percentage: 0
+  percentage: 1
   color: info
