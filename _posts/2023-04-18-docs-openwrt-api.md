@@ -16,7 +16,7 @@ http://ipOpenwrt/api/api.php?network=device
 Contoh hasil data dari API tersebut
 <details><summary>Klik Disini</summary>
   
-```json
+```
 "network":{
       "status":true,
       "data":[
@@ -105,7 +105,7 @@ ubus list | grep network.interface
 Contoh hasil data dari API tersebut
 <details><summary>Klik Disini</summary>
   
-```json
+```
 {
    "status":true,
    "data":[
@@ -170,7 +170,7 @@ http://ipOpenwrt/api/api.php?system=info
 Contoh hasil data dari API tersebut
 <details><summary>Klik Disini</summary>
 
-```json
+```
 {
    "status":true,
    "data":[{
@@ -211,7 +211,7 @@ http://ipOpenwrt/api/api.php?system=board
 Contoh hasil data dari API tersebut
 <details><summary>Klik Disini</summary>
   
-```json
+```
 {
       "status":true,
       "data":[
@@ -248,7 +248,7 @@ Interface = Interface yang tersimpan dalam VnStat kamu seperti `eth0, br-lan, wa
 Contoh hasil data dari API tersebut
 <details><summary>Klik Disini</summary>
   
-```json
+```
 {
    "vnstat":{
       "status":true,
@@ -363,7 +363,7 @@ parameter :
 Contoh hasil data dari API Netdata dari `system.cpu`
 <details><summary>Klik Disini</summary>
   
-```json
+```
 {
    "netdata":{
       "status":true,
