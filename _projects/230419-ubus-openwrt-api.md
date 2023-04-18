@@ -2,7 +2,7 @@
 name: Ubus OpenWrt API
 tools: []
 image: 
-description: only test
+description: API JSON untuk OpenWrt untuk mengekstrak data UBUS, Vnstat, Netdata dari OpenWrt yang bisa diimplementasikan sebagai Local Website Dashboard atau diintegerasikan ke Mikrokontroler untuk menjadi alat monitoring atau sejenisnya.
 ---
 
 ## UBUS, VnStat, Netdata API
