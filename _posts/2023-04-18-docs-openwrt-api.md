@@ -14,8 +14,7 @@ Untuk mengambil data bisa menggunakan browser atau pakai `CURL` untuk mendapatka
 http://ipOpenwrt/api/api.php?network=device
 ```
 Contoh hasil data dari API tersebut
-<details><summary>Klik Disini</summary>
-```
+```json
 "network":{
       "status":true,
       "data":[
@@ -85,8 +84,6 @@ Contoh hasil data dari API tersebut
       "error":null
    },
 ```
-</details>
-
 
 ### 2. Mendapatkan Data dari UBUS Network per-Interface
 Data yang diambil : `localIP, status, uptime interface, mask localIP` dan lainya
@@ -102,9 +99,7 @@ ubus list | grep network.interface
 ```
 
 Contoh hasil data dari API tersebut
-<details><summary>Klik Disini</summary>
-  
-```
+```json
 {
    "status":true,
    "data":[
@@ -156,7 +151,6 @@ Contoh hasil data dari API tersebut
    "error":null
 }
 ```
-</details>
 
 
 ### 3. Mendapatkan Data dari UBUS informasi dari System
@@ -167,9 +161,7 @@ Untuk mengambil data bisa menggunakan browser atau pakai `CURL` untuk mendapatka
 http://ipOpenwrt/api/api.php?system=info
 ```
 Contoh hasil data dari API tersebut
-<details><summary>Klik Disini</summary>
-
-```
+```json
 {
    "status":true,
    "data":[{
@@ -197,7 +189,6 @@ Contoh hasil data dari API tersebut
    "error":null
 }
 ```
-</details>
 
 
 ### 4. Mendapatkan Data dari UBUS informasi System Board atau Device yang dipakai
@@ -208,9 +199,7 @@ Untuk mengambil data bisa menggunakan browser atau pakai `CURL` untuk mendapatka
 http://ipOpenwrt/api/api.php?system=board
 ```
 Contoh hasil data dari API tersebut
-<details><summary>Klik Disini</summary>
-  
-```
+```json
 {
       "status":true,
       "data":[
@@ -232,7 +221,6 @@ Contoh hasil data dari API tersebut
       "error":null
 }
 ```
-</details>
 
 
 ### 5. Mendapatkan Data dari VnStat
@@ -245,9 +233,7 @@ http://ipOpenwrt/api/api.php?vnstat=Interface
 Interface = Interface yang tersimpan dalam VnStat kamu seperti `eth0, br-lan, wan0` dan lainya
 
 Contoh hasil data dari API tersebut
-<details><summary>Klik Disini</summary>
-  
-```
+```json
 {
    "vnstat":{
       "status":true,
@@ -342,8 +328,6 @@ Contoh hasil data dari API tersebut
    }
 }
 ```
-</details>
-
 
 ### 6. Mendapatkan Data dari NetData (hanya untuk mempersingkat)
 Data yang diambil : semua data dari netdata
@@ -360,9 +344,7 @@ parameter :
 - **Jika kamu ingin menampilkan semua data, kamu dapat menggunakan fungsi** `data=all`, contoh : `http://yourip/api/api.php?netdata=net.eth0&data=all`
 
 Contoh hasil data dari API Netdata dari `system.cpu`
-<details><summary>Klik Disini</summary>
-  
-```
+```json
 {
    "netdata":{
       "status":true,
@@ -400,7 +382,6 @@ Contoh hasil data dari API Netdata dari `system.cpu`
    }
 }
 ```
-</details>
 
 ### Credits
 > - [nosignal](https://github.com/nosignals)
