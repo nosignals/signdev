@@ -15,7 +15,6 @@ http://ipOpenwrt/api/api.php?network=device
 ```
 Contoh hasil data dari API tersebut
 <details><summary>Klik Disini</summary>
-  
 ```
 "network":{
       "status":true,
