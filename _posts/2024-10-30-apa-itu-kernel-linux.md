@@ -51,8 +51,3 @@ Linux Kernel adalah inti dari sistem operasi Linux yang bertindak sebagai jembat
 
 ## Kesimpulan
 Kernel Linux adalah inti dari sistem operasi Linux yang menyediakan banyak manfaat berkat sifat open-source-nya, dukungan luas, dan fleksibilitas. Dengan perkembangan yang terus berlanjut melalui komunitas global, kernel Linux tetap menjadi pilihan populer untuk berbagai aplikasi dan sistem, baik dalam lingkungan desktop, server, maupun perangkat pintar.
-
-
-<div class="pt-5">
-  {% include blog/disqus.html %}
-</div>
